@@ -1,0 +1,17 @@
+.main-div{
+    text-align: center;
+    
+}
+.button {
+    background-color: #2c633c;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 150px;
+    margin-top: 1em;
+    padding: 8px 0px;
+    font-size: 1em;
+    margin-bottom: 0.25em;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+ 
