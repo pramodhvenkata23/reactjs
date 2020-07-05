@@ -45,25 +45,4 @@ class login extends Component {
     }
 }
             
-    // <div className="main-div">
-    //     <text style={{fontSize:"30px",fontWeight:"bold"}}>Welcome to Login Page </text><br></br>
-    //     <div>
-    //         <input type="text" placeholder="Username"/><br></br>
-    //         <input type="password" placeholder="Password"/>
-
-    //     </div>
-        
-    //     <div>
-        
-    //     <a eventKey={1} componentClass={Link} href="/home" to="/home">
-    //     <button className="button" type="button">Login</button>
-    //     </a>
-        
-    //     </div>
-        
-    // </div> 
-                
-            
- 
-
 export default login;

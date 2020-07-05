@@ -1,7 +1,7 @@
-
-
-import React from 'react'
+import React from 'react';
 import '../styles/login.css';
+import Table from './usertable';
+
 class Home extends React.Component {
     constructor(props){
         super(props);
@@ -13,6 +13,7 @@ class Home extends React.Component {
         <div  className="main-div">
             <span style={{fontSize:"30px",fontWeight:"bold"}}>Welcome to home page</span> <br></br>
             <span style = {{fontSize:"30px",color: "green"}}>{this.props.history.location.state.userName}</span><br /><br />
+            <Table/>
             <button className="button" onClick = {this.onLogoutClick} >Logout</button>
         </div>
         );
