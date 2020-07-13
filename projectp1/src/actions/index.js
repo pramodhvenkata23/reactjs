@@ -12,3 +12,13 @@ export const getAllUsers = () => dispatch => {
         console.log("Error: " + err)
     })
 }
+
+export const deleteUserAction =(deletedId)=>({
+    type:'DEL_USERS',
+    deletedId
+})
+
+export const deleteUser = (deletedId)=> dispatch =>{
+     dispatch(deleteUserAction(deletedId))
+    
+    }
